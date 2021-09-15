@@ -6,7 +6,7 @@ env:
 
 builds:
   - id: "Tendermint"
-    main: ./cmd/tendermint/main.go
+    main: ./cmd/tenderdash/main.go
     ldflags:
       - -s -w -X github.com/tendermint/tendermint/version.TMCoreSemVer={{ .Version }}
     env:
